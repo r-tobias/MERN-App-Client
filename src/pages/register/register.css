@@ -1,0 +1,52 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.8; */
+    background:
+     linear-gradient(
+    white,
+    rgba(24, 73, 151, 0.5)
+    ),
+     /* url("https://cdn3.vectorstock.com/i/1000x1000/85/67/christmas-background-with-winter-snow-and-tree-vector-28208567.jpg");
+      */
+      url("https://wallpapercave.com/wp/wp5063027.jpg");
+    background-size: cover;
+}
+.registerTitle {
+    font-size: 50px;
+}
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label {
+    margin: 10px 0;
+}
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

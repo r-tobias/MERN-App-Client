@@ -12,7 +12,7 @@ export default function Sidebar() {
         </div>
 
         <div className="sidebarItem">
-            <span className="sidebarTitle">Follow Santa</span>
+            <span className="sidebarTitle">FOLLOW SANTA</span>
             <div className="sidebarSocial">
                 <i className="sidebarIcon fa-brands fa-facebook-square"></i>
                 <i className="sidebarIcon fa-brands fa-twitter-square"></i>

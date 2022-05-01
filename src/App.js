@@ -21,11 +21,11 @@ function App() {
       <Topbar />
       <Routes>
       <Route path="/" element = {<Home/>}/>
-      <Route path="/register" element = {user ? <Home/> : <Register/>}/>
-      <Route path="/login" element = {user ? <Home /> : <Login/>}/>
-      <Route path="/write" element = {user ? <Write/> : <Register/>}/>
-      <Route path="/settings" element = {user ? <Settings /> : <Register/>}/>
-      <Route path="/post/:postId" element = {<Single/>}/>
+      <Route path="api/register" element = {user ? <Home/> : <Register/>}/>
+      <Route path="api/login" element = {user ? <Home /> : <Login/>}/>
+      <Route path="api/write" element = {user ? <Write/> : <Register/>}/>
+      <Route path="api/settings" element = {user ? <Settings /> : <Register/>}/>
+      <Route path="api/post/:postId" element = {<Single/>}/>
       </Routes>
     </Router>
   );

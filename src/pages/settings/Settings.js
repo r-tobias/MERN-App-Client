@@ -32,7 +32,7 @@ export default function Settings() {
     //     } catch (err) {}
     //   }
       try {
-        await axios.put("api/users/" +user._id, updatedUser);
+        await axios.put("/users/" +user._id, updatedUser);
         setSuccess(true);
       } catch (err) {
           console.log(err)
